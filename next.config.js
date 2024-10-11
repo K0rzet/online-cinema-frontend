@@ -15,11 +15,11 @@ const nextConfig = {
 		return [
 			{
 				source: '/api/:path*',
-				destination: `http://localhost:4200/api/:path*`,
+				destination: `https://api.cinema.ilyacode.ru/api/:path*`,
 			},
 			{
 				source: '/uploads/:path*',
-				destination: `http://localhost:4200/uploads/:path*`,
+				destination: `https://api.cinema.ilyacode.ru/uploads/:path*`,
 			},
 		]
 	},
